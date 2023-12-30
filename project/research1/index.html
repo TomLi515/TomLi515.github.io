@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: December 20, 2023 --><html lang="en-us" >
+<!-- Last Published: December 31, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -824,9 +824,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 445px; max-height: 434px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 274px;">
   <div style="position: relative">
-    <img src="/project/research1/featured_hu886acf3f459953b097897ea057e37aa9_220889_720x2500_fit_q75_h2_lanczos.webp" width="445" height="434" alt="" class="featured-image">
+    <img src="/project/research1/featured_hud426e102c9749865a60a9add442f39f3_85188_720x2500_fit_q75_h2_lanczos.webp" width="720" height="274" alt="" class="featured-image">
     <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
   </div>
 </div>
@@ -836,11 +836,13 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
-<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
-<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
-<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
-<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+      <p><em>Planned Submission to ACL 2024, 1st Author, Supervised by Prof. Xiaofan Zhang, Shanghai AI Lab</em></p>
+<ul>
+<li>Identified a new research task in the information retrieval part of RAG, filling the existing gap by focusing on utilizing multi-turn dialogues as queries to effectively search for the best document in a specific database.</li>
+<li>Built a new dataset for the task: collected medical multi-turn dialogues and retrieved medical docs with them from the lab&rsquo;s medical database, integrating medical InternLM (20B) to rank docs by model perplexity.</li>
+<li>Pioneered a Graph Convolutional Network (GCN) approach and designed an innovative graph structure: dialogue turns as nodes and syntactic trees (N-LTP) as edges, capturing key information from the dialogues. Optimized the web search vector and calculated similarity between enhanced vector and the vectors of docs derived from BERT.</li>
+<li>Achieved an impressive MRR at 0.71, and NDCG at 0.73 as baseline based on 7,500 manually annotated dialogues, showing the model&rsquo;s reliable accuracy in retrieving the most suitable document from the database.</li>
+</ul>
 
     </div>
 
